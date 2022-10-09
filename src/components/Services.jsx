@@ -17,7 +17,7 @@ function Services() {
           <img src={websiteimg} alt="websiteimg" />
         </div>
         <div className="website">
-        <img src={androidimg} alt="" />
+          <img src={androidimg} alt="" />
           <div className="service-name">
             <p className="number">02</p>
             <p>Android Apps</p>
@@ -31,7 +31,7 @@ function Services() {
           <img src={desktopimg} alt="desktopimg" />
         </div>
         <div className="bug">
-        <img src={bugimg} alt="bugimg" />
+          <img src={bugimg} alt="bugimg" />
           <div className="service-name">
             <p className="number">04</p>
             <p>Bug Fixing</p>
