@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+span {
+  color: #0da34e;
+}
+
 .main-hero {
   font-size: 22px;
   height: 100vh;
@@ -23,12 +27,20 @@
 .main-hero .hero .tag-line {
   text-transform: uppercase;
   font-size: 64px;
+  margin-bottom: 22px;
+}
+.main-hero .hero .discuss {
+  margin: 22px 0;
+  font-size: 30px;
 }
 .main-hero .hero a {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   padding: 12px 40px;
-  background-color: #0da34e;
   background: #0da34e url("../img/button-noise.png");
   border-radius: 25px;
+}
+.main-hero .hero a:hover {
+  background: #0da34e;
 }
