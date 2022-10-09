@@ -7,12 +7,14 @@
   justify-content: center;
   text-align: left;
   & .hero {
-    width: 70%;
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     color: white;
-
     & .tag-line {
       text-transform: uppercase;
-      font-size: 64px;
+      font-size: 40px;
       margin-bottom: 22px;
     }
     & .discuss {
