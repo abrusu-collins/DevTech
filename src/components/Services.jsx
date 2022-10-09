@@ -1,3 +1,6 @@
+import androidimg from "../img/android.gif";
+import websiteimg from "../img/website.gif";
+
 function Services() {
   return (
     <div className="services">
@@ -6,12 +9,12 @@ function Services() {
         <div className="web">
           <p className="number">01</p>
           <p>Website Development</p>
-          <img src="" alt="" />
+          <img src={websiteimg} alt="websiteimg" />
         </div>
-        <div className="android">
+        <div className="website">
           <p className="number">02</p>
           <p>Android Apps</p>
-          <img src="" alt="" />
+          <img src={androidimg} alt="" />
         </div>
         <div className="desktop">
           <p className="number">03</p>
