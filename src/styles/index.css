@@ -56,7 +56,6 @@ body {
 }
 .services .title {
   font-size: 56px;
-  background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url("../img/services background.png");
   background-attachment: fixed;
   padding: 30px;
   text-align: center;
