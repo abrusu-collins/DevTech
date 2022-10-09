@@ -68,7 +68,9 @@ body {
   align-items: center;
 }
 .services .listofservices > div {
-  display: grid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .services .listofservices > div > div {
   font-size: 30px;
@@ -83,7 +85,7 @@ body {
   justify-content: center;
 }
 .services .listofservices img {
-  width: 70%;
+  width: 50%;
   border: 2px solid rgba(115, 112, 112, 0.4);
   border-radius: 10px;
 }
