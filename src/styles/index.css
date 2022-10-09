@@ -52,7 +52,6 @@ body {
 }
 
 .services {
-  height: 100vh;
   color: white;
 }
 .services .title {
@@ -61,4 +60,30 @@ body {
   background-attachment: fixed;
   padding: 30px;
   text-align: center;
+}
+.services .listofservices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services .listofservices > div {
+  display: grid;
+}
+.services .listofservices > div > div {
+  font-size: 30px;
+}
+.services .listofservices > div > div .number {
+  background-color: #0da34e;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services .listofservices img {
+  width: 70%;
+  border: 2px solid rgba(115, 112, 112, 0.4);
+  border-radius: 10px;
 }
