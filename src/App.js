@@ -4,10 +4,10 @@ import Services from "./components/Services";
 
 function App() {
   return (
-   <>
-   <Hero/>
-   <Services/>
-   </>
+    <>
+      <Hero />
+      <Services />
+    </>
   );
 }
 
