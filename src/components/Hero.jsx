@@ -6,12 +6,12 @@ function Hero() {
           We create world class digital products that our clients fall in love
           with.
         </p>
-        <p>
+        <p className="descibe">
           DevTech is a sofware development agency in Accra, Ghana. We help you
           own quality and affordable digital products easily. We develop
           Websites, Android Apps, and Desktop Apps. We also do bug fixing and UI/UX improvements.
         </p>
-        <p>Let's discuss your project</p>
+        <p className="discuss">Let's discuss your project</p>
         <a href=" ">Book a Call</a>
       </div>
     </div>
