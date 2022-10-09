@@ -14,7 +14,7 @@ function Hero() {
           improvements</span>.
         </p>
         <p className="discuss">Let's discuss your project.</p>
-        <a href=" ">Book a Call</a>
+        <a href=" ">Talk To Us Now</a>
       </div>
     </div>
   );
