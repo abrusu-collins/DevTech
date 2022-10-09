@@ -20,13 +20,13 @@ function Services() {
           <img src={androidimg} alt="" />
           <div className="service-name">
             <p className="number">02</p>
-            <p>Android Apps</p>
+            <p>Android App Development</p>
           </div>
         </div>
         <div className="desktop">
           <div className="service-name">
             <p className="number">03</p>
-            <p>Desktop Apps</p>
+            <p>Desktop App Development</p>
           </div>
           <img src={desktopimg} alt="desktopimg" />
         </div>
