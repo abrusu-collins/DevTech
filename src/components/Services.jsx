@@ -8,6 +8,26 @@ function Services() {
           <p>Website Development</p>
           <img src="" alt="" />
         </div>
+        <div className="android">
+          <p className="number">02</p>
+          <p>Android Apps</p>
+          <img src="" alt="" />
+        </div>
+        <div className="desktop">
+          <p className="number">03</p>
+          <p>Desktop Apps</p>
+          <img src="" alt="" />
+        </div>
+        <div className="bug">
+          <p className="number">04</p>
+          <p>Bug Fixing</p>
+          <img src="" alt="" />
+        </div>
+        <div className="uiux">
+          <p className="number">05</p>
+          <p>UI/UX Improvements</p>
+          <img src="" alt="" />
+        </div>
       </div>
     </div>
   );
