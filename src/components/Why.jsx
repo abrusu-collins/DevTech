@@ -32,13 +32,23 @@ function Why() {
         <div className="fast">
           <FontAwesomeIcon icon={faCode} color="#0da34e" />
           <p className="reason-big">Top Notch Engineers</p>
-          <p className="explain"></p>
+          <p className="explain">
+            {" "}
+            We have Experienced designers and Engineers who work day in day out
+            to build top notch products. They work together to bring your ideas
+            to life
+          </p>
         </div>
 
         <div className="fast">
           <FontAwesomeIcon icon={faSackDollar} color="#0da34e" />
           <p className="reason-big">Affordable Prices</p>
-          <p className="explain"></p>
+          <p className="explain">
+            We give you value for your money. We create digital product at
+            affordablbe prices for everybody. We are a value focused company so
+            we don't put money first, we mainly focus on the impact we are
+            creating in the world.
+          </p>
         </div>
 
         <div className="fast">
@@ -50,7 +60,11 @@ function Why() {
         <div className="fast">
           <FontAwesomeIcon icon={faFaceSmileWink} color="#0da34e" />
           <p className="reason-big">Client Happiness</p>
-          <p className="explain"></p>
+          <p className="explain">
+            We put the customers first and make sure they always get what they
+            want. We create digital products that our clients fall in love with.
+            We make sure our clients are 200% happy.
+          </p>
         </div>
       </div>
     </div>
