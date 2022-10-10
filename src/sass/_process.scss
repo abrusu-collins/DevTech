@@ -7,21 +7,24 @@
     font-size: 40px;
   }
   & .processes {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 70%;
-    margin:0 auto;
+    margin: 0 auto;
+    & .back {
+      background-color: $why_background;
+    }
     & div {
-        padding:30px;
-        background-color: $why_background;
+      padding: 30px;
+
       & .numbered {
         font-size: 30px;
-        & span{
-            // background-color: $button_background;
-            // padding:20px;
-            // height:20px;
-            // width:20px;
-            // border-radius: 50%;
+        & span {
+          // background-color: $button_background;
+          // padding:20px;
+          // height:20px;
+          // width:20px;
+          // border-radius: 50%;
         }
       }
     }

@@ -12,7 +12,7 @@ function Process() {
             on the "Talk To Us Now" button,
           </p>
         </div>
-        <div>
+        <div className="back">
           <p className="numbered">
             <span>02</span>Get a quote
           </p>
@@ -21,7 +21,7 @@ function Process() {
             on what you want.
           </p>
         </div>
-        <div>
+        <div className="back">
           <p className="numbered">
             <span>03</span>Your Approval
           </p>

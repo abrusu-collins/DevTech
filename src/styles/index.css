@@ -125,9 +125,11 @@ body {
   width: 70%;
   margin: 0 auto;
 }
+.process .processes .back {
+  background-color: #292929;
+}
 .process .processes div {
   padding: 30px;
-  background-color: #292929;
 }
 .process .processes div .numbered {
   font-size: 30px;
