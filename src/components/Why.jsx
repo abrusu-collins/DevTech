@@ -1,5 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBolt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBolt,
+  faSackDollar,
+  faGlobe,
+  faCode,
+  faFaceSmileWink,
+  faThumbsUp,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Why() {
   return (
@@ -13,31 +20,31 @@ function Why() {
         </div>
 
         <div className="fast">
-          <FontAwesomeIcon icon={faBolt} color="#0da34e" />
+          <FontAwesomeIcon icon={faGlobe} color="#0da34e" />
           <p className="reason-big">World Class product</p>
           <p className="explain"></p>
         </div>
 
         <div className="fast">
-          <FontAwesomeIcon icon={faBolt} color="#0da34e" />
+          <FontAwesomeIcon icon={faCode} color="#0da34e" />
           <p className="reason-big">Top Notch Engineers</p>
           <p className="explain"></p>
         </div>
 
         <div className="fast">
-          <FontAwesomeIcon icon={faBolt} color="#0da34e" />
+          <FontAwesomeIcon icon={faSackDollar} color="#0da34e" />
           <p className="reason-big">Affordable Prices</p>
           <p className="explain"></p>
         </div>
 
         <div className="fast">
-          <FontAwesomeIcon icon={faBolt} color="#0da34e" />
+          <FontAwesomeIcon icon={faThumbsUp} color="#0da34e" />
           <p className="reason-big">Digital Success</p>
           <p className="explain"></p>
         </div>
 
         <div className="fast">
-          <FontAwesomeIcon icon={faBolt} color="#0da34e" />
+          <FontAwesomeIcon icon={faFaceSmileWink} color="#0da34e" />
           <p className="reason-big">Client Happiness</p>
           <p className="explain"></p>
         </div>
