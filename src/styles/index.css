@@ -175,3 +175,6 @@ body {
   padding: 12px 40px;
   border-radius: 25px;
 }
+.ready div a:hover {
+  background: #0da34e;
+}

@@ -47,6 +47,9 @@
       text-decoration: none;
       padding: 12px 40px;
       border-radius: 25px;
+      &:hover{
+        background: $button_background;
+      }
     }
   }
 }
