@@ -119,6 +119,16 @@ body {
   margin: 50px 0;
   font-size: 40px;
 }
+.process .processes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70%;
+  margin: 0 auto;
+}
+.process .processes div {
+  padding: 30px;
+  background-color: #292929;
+}
 .process .processes div .numbered {
   font-size: 30px;
 }
