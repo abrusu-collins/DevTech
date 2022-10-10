@@ -33,7 +33,7 @@ function Why() {
           </p>
         </div>
 
-        <div className="fast">
+        <div className="notch">
           <FontAwesomeIcon icon={faCode} color="#0da34e" />
           <p className="reason-big">Top Notch Engineers</p>
           <p className="explain">
@@ -43,7 +43,7 @@ function Why() {
           </p>
         </div>
 
-        <div className="fast">
+        <div className="afford">
           <FontAwesomeIcon icon={faSackDollar} color="#0da34e" />
           <p className="reason-big">Affordable Prices</p>
           <p className="explain">
@@ -54,13 +54,13 @@ function Why() {
           </p>
         </div>
 
-        <div className="fast">
+        <div className="success">
           <FontAwesomeIcon icon={faThumbsUp} color="#0da34e" />
           <p className="reason-big">Digital Success</p>
           <p className="explain"></p>
         </div>
 
-        <div className="fast">
+        <div className="happy">
           <FontAwesomeIcon icon={faFaceSmileWink} color="#0da34e" />
           <p className="reason-big">Client Happiness</p>
           <p className="explain">
