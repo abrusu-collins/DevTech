@@ -57,7 +57,7 @@ function Why() {
         <div className="success">
           <FontAwesomeIcon icon={faThumbsUp} color="#0da34e" />
           <p className="reason-big">Digital Success</p>
-          <p className="explain"></p>
+          <p className="explain"> We help your business/ company succed digitally.</p>
         </div>
 
         <div className="happy">
