@@ -3,7 +3,7 @@
 function Services() {
   return (
     <div className="services">
-      <p className="title">OUR SERVICES</p>
+      <p className="title">WHAT WE DO</p>
     </div>
   );
 }
