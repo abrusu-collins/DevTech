@@ -25,18 +25,21 @@ function Why() {
 
         <div className="fast">
           <FontAwesomeIcon icon={faGlobe} color="#0da34e" />
-          <p className="reason-big">World Class product</p>
-          <p className="explain"></p>
+          <p className="reason-big">World Class products</p>
+          <p className="explain">
+            We don't just creat any product, we create world class products. We
+            don't do mediocre work, we make sure that any product that comes out
+            of the DevTech Lab is quality.
+          </p>
         </div>
 
         <div className="fast">
           <FontAwesomeIcon icon={faCode} color="#0da34e" />
           <p className="reason-big">Top Notch Engineers</p>
           <p className="explain">
-            {" "}
             We have Experienced designers and Engineers who work day in day out
             to build top notch products. They work together to bring your ideas
-            to life
+            to life.
           </p>
         </div>
 
