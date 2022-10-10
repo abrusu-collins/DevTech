@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Why from "./components/Why";
 import Works from "./components/Works";
+import Process from "./components/Process";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Hero />
       <Services />
       <Why />
-      <Works/>
+      <Works />
+      <Process />
     </>
   );
 }
