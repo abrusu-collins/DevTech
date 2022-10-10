@@ -5,6 +5,12 @@
   & .title {
     margin: 50px 0;
     font-size: 40px;
-
+  }
+  & .processes {
+    & div {
+      & .numbered {
+        font-size: 30px;
+      }
+    }
   }
 }

@@ -119,3 +119,6 @@ body {
   margin: 50px 0;
   font-size: 40px;
 }
+.process .processes div .numbered {
+  font-size: 30px;
+}
