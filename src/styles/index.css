@@ -60,7 +60,7 @@ body {
 .services .title {
   font-size: 40px;
   text-align: center;
-  margin-bottom: 90px;
+  margin: 50px auto;
 }
 
 .why {
