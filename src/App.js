@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Why from "./components/Why";
 import Works from "./components/Works";
 import Process from "./components/Process";
+import Ready from "./components/Ready";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Why />
       <Works />
       <Process />
+      <Ready/>
     </>
   );
 }
