@@ -7,7 +7,9 @@ $why_background: #292929;
   box-sizing: border-box;
   font-family: "Barlow Condensed", sans-serif;
 }
-
+span{
+ color: $button_background;
+}
 body {
   background-color: black;
 }

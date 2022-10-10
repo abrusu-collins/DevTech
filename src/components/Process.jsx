@@ -23,8 +23,8 @@ function Process() {
           <p className="numbered">03</p>
           <p className="process-title">Your Approval</p>
           <p>
-            You then tell us that you've agreed to pay the cost for us to
-            proceed.
+            You then tell us that you've agreed/disagreed to pay the cost for us to
+            proceed/terminate the process.
           </p>
         </div>
         <div>

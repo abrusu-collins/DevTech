@@ -6,6 +6,10 @@
   font-family: "Barlow Condensed", sans-serif;
 }
 
+span {
+  color: #0da34e;
+}
+
 body {
   background-color: black;
 }
@@ -111,6 +115,7 @@ body {
 }
 
 .process {
+  margin-bottom: 50px;
   color: white;
   font-size: 18px;
   text-align: center;
