@@ -8,23 +8,24 @@ function Process() {
           <p className="process-title">Specification</p>
           <p>
             Send us a mail that contains exactly what you want. When you click
-            on the "Talk To Us Now" button,
+            on the "Talk To Us Now" button, your mail will be opened for you to
+            do this.
           </p>
         </div>
         <div className="back">
           <p className="numbered">02</p>
           <p className="process-title">Get a quote</p>
           <p>
-            Receive the cost of the service.The cost varies and solely depends
-            on what you want.
+            Receive the cost of the service. The cost varies and solely depends
+            on the specifications you send us.
           </p>
         </div>
         <div className="back">
           <p className="numbered">03</p>
           <p className="process-title">Your Approval</p>
           <p>
-            You then tell us that you've agreed/disagreed to pay the cost for us to
-            proceed/terminate the process.
+            You then tell us that you've agreed/disagreed to pay the cost for us
+            to proceed/terminate the process.
           </p>
         </div>
         <div>
