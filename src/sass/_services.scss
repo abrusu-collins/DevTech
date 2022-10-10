@@ -7,17 +7,22 @@
     // background-attachment: fixed;
     // padding: 30px;
     text-align: center;
+    margin-bottom: 90px;
   }
   & .listofservices {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     & > div {
+      border:2px dotted $why_background;
+      border-radius: 15px;
+      width:45%;
       display: flex;
       justify-content: space-around;
       align-items: center;
-      margin-bottom: 20px;
+      margin-bottom: 50px;
 
       & > div {
         font-size: 20px;

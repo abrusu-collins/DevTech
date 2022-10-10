@@ -16,7 +16,11 @@ function Why() {
         <div className="fast">
           <FontAwesomeIcon icon={faBolt} color="#0da34e" />
           <p className="reason-big">Super Fast Delivery</p>
-          <p className="explain"></p>
+          <p className="explain">
+            After getting the order from a customer, we start work as soon as
+            possible without wasting time. We know how it feels to wait so we
+            won't keep you waiting.
+          </p>
         </div>
 
         <div className="fast">
