@@ -180,5 +180,7 @@ body {
 }
 
 .footer {
-  margin: 300px;
+  font-size: 18px;
+  margin: 200px;
+  color: #292929;
 }

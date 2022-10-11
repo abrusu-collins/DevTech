@@ -1,10 +1,11 @@
-let companyimg ="../img/"
+let companyimg = "../img/devtech.png";
 
 function Footer() {
   let year = new Date().getFullYear();
   return (
     <div className="footer">
-      <p>copy;{year}</p>
+      <img src={companyimg} alt="companyimg" />
+      <p>&copy; {year}</p>
     </div>
   );
 }
