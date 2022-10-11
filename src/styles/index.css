@@ -180,7 +180,14 @@ body {
 }
 
 .footer {
-  font-size: 18px;
+  font-size: 20px;
   margin: 150px;
-  color: #292929;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.footer img {
+  width: 10%;
 }
