@@ -1,4 +1,4 @@
-let companyimg = "../img/devtech.png";
+import companyimg from "../img/devtech.png";
 
 function Footer() {
   let year = new Date().getFullYear();
