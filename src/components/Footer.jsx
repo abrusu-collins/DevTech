@@ -1,7 +1,12 @@
+let companyimg ="../img/"
+
 function Footer() {
-    return ( 
-        <div className="footer"></div>
-     );
+  let year = new Date().getFullYear();
+  return (
+    <div className="footer">
+      <p>copy;{year}</p>
+    </div>
+  );
 }
 
 export default Footer;
