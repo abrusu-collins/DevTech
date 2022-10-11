@@ -178,3 +178,7 @@ body {
 .ready div a:hover {
   background: #0da34e;
 }
+
+.footer {
+  height: 100vh;
+}
