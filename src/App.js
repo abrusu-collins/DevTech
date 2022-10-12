@@ -1,5 +1,4 @@
 import "./styles/index.css";
-import NavBar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Why from "./components/Why";
@@ -8,10 +7,10 @@ import Process from "./components/Process";
 import Ready from "./components/Ready";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <>
-    <NavBar/>
       <Hero />
       <Services />
       <Why />
