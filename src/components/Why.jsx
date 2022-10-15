@@ -17,7 +17,7 @@ function Why() {
           <FontAwesomeIcon icon={faBolt} color="#0da34e" />
           <p className="reason-big">Super Fast Delivery</p>
           <p className="explain">
-            After getting the order from a customer, we start work as soon as
+            After getting the order from a client, we start work as soon as
             possible without wasting time. We know how it feels to wait so we
             won't keep you waiting.
           </p>
@@ -57,14 +57,17 @@ function Why() {
         <div className="success">
           <FontAwesomeIcon icon={faThumbsUp} color="#0da34e" />
           <p className="reason-big">Digital Success</p>
-          <p className="explain"> We help your business/ company succed digitally.</p>
+          <p className="explain">
+            We help your business/company succed digitally. We will give you a 
+            product that your users will find very easy to use. We will help your business grown online.
+          </p>
         </div>
 
         <div className="happy">
           <FontAwesomeIcon icon={faFaceSmileWink} color="#0da34e" />
           <p className="reason-big">Client Happiness</p>
           <p className="explain">
-            We put the customers first and make sure they always get what they
+            We put the clients first and make sure they always get what they
             want. We create digital products that our clients fall in love with.
             We make sure our clients are 200% happy.
           </p>
