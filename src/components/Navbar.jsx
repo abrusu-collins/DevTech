@@ -1,8 +1,9 @@
+import companyimg from "../img/devtech.png";
 
 function Navbar() {
   return (
     <div className="navbar" id="home">
-      <p>HotelVivi</p>
+      <img src={companyimg} alt="companyimg" />
       <ul>
         <li>
           <a href="#home">Home</a>

@@ -1,14 +1,14 @@
 .navbar {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  height: 10vh;
+  background-color: black;
   width: 100%;
+  padding: 15px;
   color: white;
   position: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  & p {
-    //   font-family: "Roboto Slab", serif;
+  & img {
+    width: 10%;
   }
   & ul {
     display: flex;
