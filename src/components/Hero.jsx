@@ -1,4 +1,4 @@
-import heroimg from "../img/hero-banner.gif";
+import heroimg from "../img/hero-img.png";
 function Hero() {
   return (
     <div className="main-hero">
