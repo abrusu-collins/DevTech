@@ -39,7 +39,7 @@ body {
   text-decoration: none;
   color: inherit;
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 .navbar ul li a:hover {
   background-color: #0da34e;
