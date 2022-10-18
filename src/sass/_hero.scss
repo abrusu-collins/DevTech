@@ -9,7 +9,7 @@
   justify-content: center;
   text-align: left;
   & .hero {
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,6 +33,9 @@
       &:hover {
         background: $button_background;
       }
+    }
+    & img {
+      width: 120%;
     }
   }
 }
