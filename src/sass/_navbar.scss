@@ -1,0 +1,30 @@
+.navbar {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  height: 10vh;
+  width: 100%;
+  color: white;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  & p {
+    //   font-family: "Roboto Slab", serif;
+  }
+  & ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    & li {
+      margin-right: 40px;
+      & a {
+        text-decoration: none;
+        color: inherit;
+        padding: 10px;
+        border-radius: 25px;
+        &:hover {
+          background-color: $button_background;
+        }
+      }
+    }
+  }
+}
