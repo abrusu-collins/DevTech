@@ -9,16 +9,16 @@ function Navbar() {
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#tvinw">Accomodation</a>
+          <a href="#tvinw">Services</a>
         </li>
         <li>
-          <a href="#fans">Photos & Videos</a>
+          <a href="#fans">Why Choose Us</a>
         </li>
         <li>
-          <a href="#pics">Offers</a>
+          <a href="#pics">Featured work</a>
         </li>
         <li>
-          <a href="#pics">Facilities & Amenities</a>
+          <a href="#pics">Our process</a>
         </li>
       </ul>
     </div>
