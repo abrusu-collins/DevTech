@@ -154,6 +154,16 @@ body {
 .works > div > div .about p {
   font-size: 30px;
 }
+.works > div > div .about a {
+  color: white;
+  background: #0da34e url("../img/button-noise.png");
+  text-decoration: none;
+  padding: 12px 40px;
+  border-radius: 25px;
+}
+.works > div > div .about a:hover {
+  background: #0da34e;
+}
 
 .process {
   margin-bottom: 50px;

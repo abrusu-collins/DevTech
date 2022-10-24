@@ -33,6 +33,16 @@
         & p {
           font-size: 30px;
         }
+        & a {
+          color: white;
+          background: $button_background url("../img/button-noise.png");
+          text-decoration: none;
+          padding: 12px 40px;
+          border-radius: 25px;
+          &:hover {
+            background: $button_background;
+          }
+        }
       }
     }
   }
