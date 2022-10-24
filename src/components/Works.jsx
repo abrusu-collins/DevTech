@@ -11,15 +11,26 @@ function Works() {
           <div className="gif">
             <img src={blackogif} alt="blackogif" />
           </div>
-          <div className="about"></div>
+          <div className="about">
+            <p>Website for Blacko</p>
+            <a href="">Visit Website</a>
+          </div>
         </div>
         <div className="hotel-vivi">
           <img src={hotelvivigif} alt="hotelvivigif" />
+          <div className="about">
+            <p>Website for Blacko</p>
+            <a href="">Visit Website</a>
+          </div>
         </div>
       </div>
       <div className="edem_gif">
         <div className="edem">
           <img src={edemgif} alt="edemgif" />
+          <div className="about">
+            <p>Website for Blacko</p>
+            <a href="">Visit Website</a>
+          </div>
         </div>
       </div>
     </div>

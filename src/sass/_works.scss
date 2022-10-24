@@ -27,4 +27,13 @@
     text-align: center;
     padding: 50px 0;
   }
+  & > div {
+    & > div {
+      & .about {
+        & p {
+          font-size: 30px;
+        }
+      }
+    }
+  }
 }
