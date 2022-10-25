@@ -344,15 +344,13 @@ body {
   .navbar .nav-2 img {
     width: 30%;
   }
-  .navbar .nav-2 ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
+}
+@media screen and (max-width: 401px) {
+  .navbar .nav-2 .hamburger {
+    padding: 20px 0;
   }
-  .navbar .nav-2 ul li {
-    margin-bottom: 25px;
+  .navbar .nav-2 img {
+    width: 40%;
   }
 }
 @media screen and (max-width: 1301px) {
