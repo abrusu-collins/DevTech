@@ -1,3 +1,4 @@
+//navbar
 @media screen and (max-width: 801px) {
   .navbar {
     & .nav-1 {
@@ -6,22 +7,22 @@
     & .nav-2 {
       display: block;
       font-size: 30px;
-      & .hamburger{
+      & .hamburger {
         display: flex;
         align-items: center;
         justify-content: space-around;
       }
-      & img{
+      & img {
         width: 20%;
       }
-      & ul{
+      & ul {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding-top: 10px;
-        & li{
-            margin-bottom: 25px;
+        & li {
+          margin-bottom: 25px;
         }
       }
     }
@@ -134,13 +135,6 @@
     }
   }
 }
-// @media screen and (max-width: 801px) {
-//     .process {
-//       & .processes {
-//         width: 90%;
-//       }
-//     }
-//   }
 //works
 @media screen and (max-width: 1341px) {
   .works {
@@ -158,6 +152,16 @@
   .ready {
     & div {
       width: 90%;
+    }
+  }
+}
+@media screen and (max-width: 771px) {
+  .ready {
+    & div {
+      flex-direction: column;
+      & p {
+        margin-bottom: 30px;
+      }
     }
   }
 }

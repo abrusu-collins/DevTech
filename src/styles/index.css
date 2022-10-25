@@ -18,14 +18,6 @@ body {
   width: 50%;
 }
 
-.navbar .nav-2 .hide {
-  display: none;
-}
-
-.green {
-  color: #0da34e;
-}
-
 .navbar {
   background-color: black;
   width: 100%;
@@ -58,6 +50,14 @@ body {
 }
 .navbar ul li a:hover {
   background-color: #0da34e;
+}
+
+.navbar .nav-2 .hide {
+  display: none;
+}
+
+.green {
+  color: #0da34e;
 }
 
 .main-hero {
@@ -433,6 +433,14 @@ body {
 @media screen and (max-width: 1201px) {
   .ready div {
     width: 90%;
+  }
+}
+@media screen and (max-width: 771px) {
+  .ready div {
+    flex-direction: column;
+  }
+  .ready div p {
+    margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 1201px) {
