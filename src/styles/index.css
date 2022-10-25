@@ -298,11 +298,6 @@ body {
     width: 90%;
   }
 }
-@media screen and (max-width: 1201px) {
-  .ready div {
-    width: 90%;
-  }
-}
 @media screen and (max-width: 1341px) {
   .works .flex2_gifs {
     flex-direction: column;
@@ -310,5 +305,15 @@ body {
   }
   .works .flex2_gifs .blacko {
     margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 1201px) {
+  .ready div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1201px) {
+  .footer img {
+    width: 20%;
   }
 }
