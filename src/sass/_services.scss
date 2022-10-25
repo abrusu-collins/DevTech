@@ -32,17 +32,19 @@
   }
   & .main-services {
     width: 70%;
-    display: grid;
-    grid-template-columns: 1fr 0.8fr;
-    align-items: center;
-    grid-gap: 2rem;
     margin: auto;
     & .list-of-services {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
       & div {
         background-color: black;
         color: white;
         margin-bottom: 10px;
         padding: 30px;
+        & .heading{
+          font-size: 30px;
+          margin: 10px 0;
+        }
       }
     }
   }

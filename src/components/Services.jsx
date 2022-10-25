@@ -22,7 +22,7 @@ function Services() {
           </div>
           <div className="desktop">
             <img src={desktop} alt="desktop-img" />
-            <p className="heading">Website Development</p>
+            <p className="heading">Desktop App Development</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
               incidunt corrupti dolore quisquam laudantium. Dolorem corporis
@@ -32,7 +32,7 @@ function Services() {
           </div>
           <div className="android">
             <img src={android} alt="android-img" />
-            <p className="heading">Website Development</p>
+            <p className="heading">Android App Development</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
               incidunt corrupti dolore quisquam laudantium. Dolorem corporis
@@ -42,7 +42,7 @@ function Services() {
           </div>
           <div className="uiux">
             <img src={uiux} alt="uiux-img" />
-            <p className="heading">Website Development</p>
+            <p className="heading">UI/UX Improvements</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
               incidunt corrupti dolore quisquam laudantium. Dolorem corporis
@@ -52,7 +52,7 @@ function Services() {
           </div>
           <div className="bug">
             <img src={bug} alt="bug-img" />
-            <p className="heading">Website Development</p>
+            <p className="heading">Bug fixing</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
               incidunt corrupti dolore quisquam laudantium. Dolorem corporis
