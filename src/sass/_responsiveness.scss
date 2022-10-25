@@ -33,6 +33,14 @@
     }
   }
 }
+@media screen and (max-width: 801px) {
+  .main-hero {
+    & .hero {
+      flex-direction: column;
+      width: 80%;
+    }
+  }
+}
 //services
 @media screen and (max-width: 1201px) {
   .services {
@@ -58,6 +66,13 @@
     }
   }
 }
+@media screen and (max-width: 801px) {
+  .services {
+    & .main-services {
+      width: 90%;
+    }
+  }
+}
 //why
 @media screen and (max-width: 1201px) {
   .why {
@@ -74,6 +89,13 @@
     }
   }
 }
+@media screen and (max-width: 801px) {
+  .why {
+    & .reasons {
+      width: 90%;
+    }
+  }
+}
 //process
 @media screen and (max-width: 1201px) {
   .process {
@@ -82,7 +104,13 @@
     }
   }
 }
-
+// @media screen and (max-width: 801px) {
+//     .process {
+//       & .processes {
+//         width: 90%;
+//       }
+//     }
+//   }
 //works
 @media screen and (max-width: 1341px) {
   .works {
@@ -111,3 +139,11 @@
     }
   }
 }
+@media screen and (max-width: 801px) {
+    .footer {
+        font-size: 28px;
+      & img {
+        width: 30%;
+      }
+    }
+  }
