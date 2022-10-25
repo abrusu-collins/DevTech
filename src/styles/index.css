@@ -480,3 +480,11 @@ body {
     width: 30%;
   }
 }
+@media screen and (max-width: 701px) {
+  .footer {
+    font-size: 30px;
+  }
+  .footer img {
+    width: 40%;
+  }
+}

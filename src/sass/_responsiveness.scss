@@ -212,3 +212,11 @@
     }
   }
 }
+@media screen and (max-width: 701px) {
+    .footer {
+      font-size: 30px;
+      & img {
+        width: 40%;
+      }
+    }
+  }
