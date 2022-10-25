@@ -1,4 +1,9 @@
 import web from "../img/web.png";
+import desktop from "../img/desktop.png";
+import android from "../img/android";
+import bug from "../img/bug";
+import uiux from "../img/uiux";
+
 function Services() {
   return (
     <div className="services">
@@ -6,7 +11,7 @@ function Services() {
       <div className="main-services">
         <div className="list-of-services">
           <div className="web">
-            <img src={web} alt="" />
+            <img src={web} alt="web-img" />
             <p className="heading">Website Development</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
@@ -15,10 +20,46 @@ function Services() {
               deserunt nihil totam!
             </p>
           </div>
-          <div className="android">Android App Development</div>
-          <div className="desktop">Desktop App Development</div>
-          <div className="bug">Bug Fixing</div>
-          <div className="uiux">UI/UX Improvement</div>
+          <div className="web">
+            <img src={web} alt="web-img" />
+            <p className="heading">Website Development</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+              incidunt corrupti dolore quisquam laudantium. Dolorem corporis
+              magni quos nesciunt hic nobis fugiat, pariatur minima ea eos eum
+              deserunt nihil totam!
+            </p>
+          </div>
+          <div className="web">
+            <img src={web} alt="web-img" />
+            <p className="heading">Website Development</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+              incidunt corrupti dolore quisquam laudantium. Dolorem corporis
+              magni quos nesciunt hic nobis fugiat, pariatur minima ea eos eum
+              deserunt nihil totam!
+            </p>
+          </div>
+          <div className="web">
+            <img src={web} alt="web-img" />
+            <p className="heading">Website Development</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+              incidunt corrupti dolore quisquam laudantium. Dolorem corporis
+              magni quos nesciunt hic nobis fugiat, pariatur minima ea eos eum
+              deserunt nihil totam!
+            </p>
+          </div>
+          <div className="web">
+            <img src={web} alt="web-img" />
+            <p className="heading">Website Development</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+              incidunt corrupti dolore quisquam laudantium. Dolorem corporis
+              magni quos nesciunt hic nobis fugiat, pariatur minima ea eos eum
+              deserunt nihil totam!
+            </p>
+          </div>
         </div>
       </div>
     </div>
