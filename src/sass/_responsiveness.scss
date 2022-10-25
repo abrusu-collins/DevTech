@@ -96,6 +96,14 @@
     }
   }
 }
+@media screen and (max-width: 401px) {
+  .main-hero {
+    height: 90vh;
+    padding-top: 10px;
+
+    
+  }
+}
 //services
 @media screen and (max-width: 1201px) {
   .services {
