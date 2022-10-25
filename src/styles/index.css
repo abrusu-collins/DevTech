@@ -400,6 +400,14 @@ body {
     width: 90%;
   }
 }
+@media screen and (max-width: 801px) {
+  .services .main-services {
+    width: 70%;
+  }
+  .services .main-services .list-of-services {
+    grid-template-columns: 1fr;
+  }
+}
 @media screen and (max-width: 1201px) {
   .why .reasons {
     width: 90%;

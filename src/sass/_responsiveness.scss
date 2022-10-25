@@ -104,6 +104,16 @@
     }
   }
 }
+@media screen and (max-width: 801px) {
+  .services {
+    & .main-services {
+      width: 70%;
+      & .list-of-services {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
 //why
 @media screen and (max-width: 1201px) {
   .why {
