@@ -1,8 +1,8 @@
 import web from "../img/web.png";
 import desktop from "../img/desktop.png";
-import android from "../img/android";
-import bug from "../img/bug";
-import uiux from "../img/uiux";
+import android from "../img/android.png";
+import bug from "../img/bug.png";
+import uiux from "../img/uiux.png";
 
 function Services() {
   return (
@@ -20,8 +20,8 @@ function Services() {
               deserunt nihil totam!
             </p>
           </div>
-          <div className="web">
-            <img src={web} alt="web-img" />
+          <div className="desktop">
+            <img src={desktop} alt="desktop-img" />
             <p className="heading">Website Development</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
@@ -30,8 +30,8 @@ function Services() {
               deserunt nihil totam!
             </p>
           </div>
-          <div className="web">
-            <img src={web} alt="web-img" />
+          <div className="android">
+            <img src={android} alt="android-img" />
             <p className="heading">Website Development</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
@@ -40,8 +40,8 @@ function Services() {
               deserunt nihil totam!
             </p>
           </div>
-          <div className="web">
-            <img src={web} alt="web-img" />
+          <div className="uiux">
+            <img src={uiux} alt="uiux-img" />
             <p className="heading">Website Development</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
@@ -50,8 +50,8 @@ function Services() {
               deserunt nihil totam!
             </p>
           </div>
-          <div className="web">
-            <img src={web} alt="web-img" />
+          <div className="bug">
+            <img src={bug} alt="bug-img" />
             <p className="heading">Website Development</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
