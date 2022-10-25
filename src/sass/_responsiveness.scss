@@ -1,0 +1,32 @@
+//hero
+@media screen and (max-width: 1301px) {
+//   .main-hero {
+//     height: 120vh;
+//     padding-top: 120px;
+//     & .hero {
+//       flex-direction: column;
+//       width: 55%;
+//       & img {
+//         width: 70%;
+//       }
+//     }
+//   }
+.main-hero{
+    & .hero{
+        width: 80%;
+    }
+}
+}
+//services
+//works
+@media screen and (max-width: 1341px) {
+  .works {
+    & .flex2_gifs {
+      flex-direction: column;
+      width: 100%;
+      & .blacko {
+        margin-bottom: 100px;
+      }
+    }
+  }
+}

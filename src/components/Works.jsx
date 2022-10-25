@@ -29,7 +29,7 @@ function Works() {
           <img src={hotelvivigif} alt="hotelvivigif" />
           <div className="about">
             <p>Website for Hotelvivi(Hotel)</p>
-            <a href="">Visit Website</a>
+            <a href="https://hotelvivi.netlify.app/" target="blank">Visit Website</a>
           </div>
         </div>
       </div>

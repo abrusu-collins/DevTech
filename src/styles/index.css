@@ -277,3 +277,18 @@ body {
 .footer img {
   width: 10%;
 }
+
+@media screen and (max-width: 1301px) {
+  .main-hero .hero {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1341px) {
+  .works .flex2_gifs {
+    flex-direction: column;
+    width: 100%;
+  }
+  .works .flex2_gifs .blacko {
+    margin-bottom: 100px;
+  }
+}
