@@ -104,7 +104,7 @@
     }
   }
 }
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 701px) {
   .services {
     & .main-services {
       width: 70%;
@@ -137,6 +137,15 @@
     }
   }
 }
+@media screen and (max-width: 701px) {
+    .why {
+      & .reasons {
+        width: 70%;
+        grid-template-columns: 1fr;
+
+      }
+    }
+  }
 //process
 @media screen and (max-width: 1201px) {
   .process {
@@ -145,6 +154,18 @@
     }
   }
 }
+@media screen and (max-width: 701px) {
+    .process {
+      & .processes {
+        grid-template-columns: 1fr;
+        width: 70%;
+        grid-gap: 1rem;
+        & div{
+            background-color: $why_background;
+        }
+      }
+    }
+  }
 //works
 @media screen and (max-width: 1341px) {
   .works {
