@@ -173,7 +173,7 @@
     }
   }
 }
-@media screen and (max-width: 701px) {
+@media screen and (max-width: 501px) {
   .why {
     & .reasons {
       width: 90%;
@@ -219,7 +219,13 @@
     }
   }
 }
-
+@media screen and (max-width: 501px) {
+  .works {
+    img {
+      width: 90%;
+    }
+  }
+}
 //ready
 @media screen and (max-width: 1201px) {
   .ready {

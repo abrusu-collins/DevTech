@@ -453,7 +453,7 @@ body {
     grid-template-columns: 1fr;
   }
 }
-@media screen and (max-width: 701px) {
+@media screen and (max-width: 501px) {
   .why .reasons {
     width: 90%;
   }
@@ -485,6 +485,11 @@ body {
 @media screen and (max-width: 601px) {
   .works img {
     width: 70%;
+  }
+}
+@media screen and (max-width: 501px) {
+  .works img {
+    width: 90%;
   }
 }
 @media screen and (max-width: 1201px) {
