@@ -22,6 +22,10 @@ body {
   display: none;
 }
 
+.navbar .nav-2 .hamburger div .green {
+  color: #0da34e;
+}
+
 .navbar {
   background-color: black;
   width: 100%;

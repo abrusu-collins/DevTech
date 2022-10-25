@@ -30,6 +30,7 @@ function Navbar() {
               e.currentTarget.parentElement.nextSibling.classList.toggle(
                 "hide"
               );
+              e.currentTarget.classList.toggle("green");
             }}
           >
             <FontAwesomeIcon icon={faBars} />
