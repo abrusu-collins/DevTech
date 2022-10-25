@@ -44,15 +44,17 @@
 @media screen and (max-width: 1001px) {
   .services {
     & .main-services {
+        width: 80%;
       & .list-of-services {
-        grid-template-columns: repeat(2,1fr);
-        & .uiux-none, .bug-none{
-            display: block;
+        grid-template-columns: repeat(2, 1fr);
+        & .uiux-none,
+        .bug-none {
+          display: block;
         }
       }
       & .list-of-services2 {
         display: none;
-    }
+      }
     }
   }
 }
@@ -61,6 +63,14 @@
   .why {
     & .reasons {
       width: 90%;
+    }
+  }
+}
+@media screen and (max-width: 1001px) {
+  .why {
+    & .reasons {
+      grid-template-columns: repeat(2, 1fr);
+      width: 80%;
     }
   }
 }
