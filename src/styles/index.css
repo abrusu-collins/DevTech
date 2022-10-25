@@ -531,3 +531,14 @@ body {
     width: 40%;
   }
 }
+@media screen and (max-width: 501px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
+  .footer img {
+    width: 90%;
+  }
+}
