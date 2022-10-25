@@ -32,6 +32,7 @@
       & .about {
         & p {
           font-size: 30px;
+          margin:30px 0;
         }
         & a {
           color: white;
@@ -46,4 +47,14 @@
       }
     }
   }
+  & .flex2_gifs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
 }

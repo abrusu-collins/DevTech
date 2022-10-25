@@ -153,6 +153,7 @@ body {
 }
 .works > div > div .about p {
   font-size: 30px;
+  margin: 30px 0;
 }
 .works > div > div .about a {
   color: white;
@@ -163,6 +164,15 @@ body {
 }
 .works > div > div .about a:hover {
   background: #0da34e;
+}
+.works .flex2_gifs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .process {
