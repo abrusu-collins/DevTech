@@ -37,6 +37,24 @@ function Services() {
               right developers to help you.
             </p>
           </div>
+          <div className="uiux-none">
+            <img src={uiux} alt="uiux-img" />
+            <p className="heading">UI/UX Improvements</p>
+            <p>
+              Do you want to enhance and beautify your website and strengthen
+              your business? We will work with you to pinpoint the issues and
+              develop a better experience for your customers.
+            </p>
+          </div>
+          <div className="bug-none">
+            <img src={bug} alt="bug-img" />
+            <p className="heading">Bug fixing</p>
+            <p>
+              We will offer you end-to-end bug fix solution as well as support
+              for your website. We have worked on a lot of products using a lot
+              of modern development tools so we know exacty where your bug is.
+            </p>
+          </div>
         </div>
         <div className="list-of-services2">
           <div className="uiux">

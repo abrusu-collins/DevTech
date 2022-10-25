@@ -116,6 +116,9 @@ body {
   font-size: 30px;
   margin: 10px 0;
 }
+.services .main-services .list-of-services .uiux-none, .services .main-services .list-of-services .bug-none {
+  display: none;
+}
 .services .main-services .list-of-services2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -313,6 +316,17 @@ body {
 @media screen and (max-width: 1201px) {
   .services .main-services {
     width: 90%;
+  }
+}
+@media screen and (max-width: 1001px) {
+  .services .main-services .list-of-services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .services .main-services .list-of-services .uiux-none, .services .main-services .list-of-services .bug-none {
+    display: block;
+  }
+  .services .main-services .list-of-services2 {
+    display: none;
   }
 }
 @media screen and (max-width: 1201px) {

@@ -41,6 +41,21 @@
     }
   }
 }
+@media screen and (max-width: 1001px) {
+  .services {
+    & .main-services {
+      & .list-of-services {
+        grid-template-columns: repeat(2,1fr);
+        & .uiux-none, .bug-none{
+            display: block;
+        }
+      }
+      & .list-of-services2 {
+        display: none;
+    }
+    }
+  }
+}
 //why
 @media screen and (max-width: 1201px) {
   .why {
