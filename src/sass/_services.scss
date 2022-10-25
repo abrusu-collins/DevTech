@@ -31,11 +31,27 @@
     padding: 50px 0;
   }
   & .main-services {
-    width: 70%;
+    width: 80%;
     margin: auto;
     & .list-of-services {
       display: grid;
       grid-template-columns: repeat(3,1fr);
+      grid-gap:1rem;
+      margin-bottom: 1rem;
+      & div {
+        background-color: black;
+        color: white;
+        padding: 30px;
+        & .heading{
+          font-size: 30px;
+          margin: 10px 0;
+        }
+      }
+    }
+    & .list-of-services2 {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap:1rem;
       & div {
         background-color: black;
         color: white;
