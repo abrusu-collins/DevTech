@@ -44,7 +44,7 @@
 @media screen and (max-width: 1001px) {
   .services {
     & .main-services {
-        width: 80%;
+      width: 80%;
       & .list-of-services {
         grid-template-columns: repeat(2, 1fr);
         & .uiux-none,
