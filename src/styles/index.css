@@ -283,6 +283,19 @@ body {
     width: 80%;
   }
 }
+@media screen and (max-width: 1101px) {
+  .main-hero {
+    height: 120vh;
+    padding-top: 120px;
+  }
+  .main-hero .hero {
+    flex-direction: column;
+    width: 60%;
+  }
+  .main-hero .hero img {
+    width: 70%;
+  }
+}
 @media screen and (max-width: 1201px) {
   .services .main-services {
     width: 90%;

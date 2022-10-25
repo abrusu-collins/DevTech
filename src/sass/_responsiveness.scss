@@ -1,22 +1,25 @@
 //hero
 @media screen and (max-width: 1301px) {
-  //   .main-hero {
-  //     height: 120vh;
-  //     padding-top: 120px;
-  //     & .hero {
-  //       flex-direction: column;
-  //       width: 55%;
-  //       & img {
-  //         width: 70%;
-  //       }
-  //     }
-  //   }
   .main-hero {
     & .hero {
       width: 80%;
     }
   }
 }
+@media screen and (max-width: 1101px) {
+  .main-hero {
+    height: 120vh;
+    padding-top: 120px;
+    & .hero {
+      flex-direction: column;
+      width: 60%;
+      & img {
+        width: 70%;
+      }
+    }
+  }
+}
+
 //services
 @media screen and (max-width: 1201px) {
   .services {
@@ -35,12 +38,11 @@
 }
 //process
 @media screen and (max-width: 1201px) {
-.process{
+  .process {
     & .processes {
-        width: 90%;
+      width: 90%;
     }
-}
-
+  }
 }
 
 //works
@@ -57,19 +59,17 @@
 }
 //ready
 @media screen and (max-width: 1201px) {
-    .ready{
-        & div {
-            width: 90%;
-        }
+  .ready {
+    & div {
+      width: 90%;
     }
-    
+  }
+}
+//footer
+@media screen and (max-width: 1201px) {
+  .footer {
+    & img {
+      width: 20%;
     }
-    //footer
-    @media screen and (max-width: 1201px) {
-        .footer{
-            & img {
-                width: 20%;
-            }
-        }
-        
-        }
+  }
+}
