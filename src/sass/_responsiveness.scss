@@ -15,11 +15,24 @@
       width: 60%;
       & img {
         width: 70%;
+        margin: 50px 0;
       }
     }
   }
 }
-
+@media screen and (max-width: 1001px) {
+    .main-hero {
+      height: 80vh;
+      padding-top: 0;
+      & .hero {
+        flex-direction: column;
+        width: 70%;
+        & img {
+       display: none;
+        }
+      }
+    }
+  }
 //services
 @media screen and (max-width: 1201px) {
   .services {

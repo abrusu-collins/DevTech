@@ -294,6 +294,20 @@ body {
   }
   .main-hero .hero img {
     width: 70%;
+    margin: 50px 0;
+  }
+}
+@media screen and (max-width: 1001px) {
+  .main-hero {
+    height: 80vh;
+    padding-top: 0;
+  }
+  .main-hero .hero {
+    flex-direction: column;
+    width: 70%;
+  }
+  .main-hero .hero img {
+    display: none;
   }
 }
 @media screen and (max-width: 1201px) {
