@@ -140,10 +140,10 @@
   }
 }
 @media screen and (max-width: 801px) {
-    .footer {
-        font-size: 28px;
-      & img {
-        width: 30%;
-      }
+  .footer {
+    font-size: 28px;
+    & img {
+      width: 30%;
     }
   }
+}

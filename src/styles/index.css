@@ -14,6 +14,10 @@ body {
   background-color: black;
 }
 
+.gif {
+  width: 50%;
+}
+
 .navbar {
   background-color: black;
   width: 100%;
@@ -116,8 +120,22 @@ body {
   font-size: 30px;
   margin: 10px 0;
 }
-.services .main-services .list-of-services .uiux-none, .services .main-services .list-of-services .bug-none {
+.services .main-services .list-of-services .uiux-none,
+.services .main-services .list-of-services .bug-none {
   display: none;
+}
+.services .main-services .list-of-services .uiux-none a,
+.services .main-services .list-of-services .bug-none a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: 12px 40px;
+  background: #0da34e url("../img/button-noise.png");
+  border-radius: 25px;
+}
+.services .main-services .list-of-services .uiux-none a:hover,
+.services .main-services .list-of-services .bug-none a:hover {
+  background: #0da34e;
 }
 .services .main-services .list-of-services2 {
   display: grid;

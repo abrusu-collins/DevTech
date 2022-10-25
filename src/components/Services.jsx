@@ -3,6 +3,7 @@ import desktop from "../img/desktop.png";
 import android from "../img/android.png";
 import bug from "../img/bug.png";
 import uiux from "../img/uiux.png";
+import wavegif from "../img/wave.gif";
 
 function Services() {
   return (
@@ -54,6 +55,11 @@ function Services() {
               for your website. We have worked on a lot of products using a lot
               of modern development tools so we know exacty where your bug is.
             </p>
+          </div>
+          <div className="bug-none">
+            <img className="gif" src={wavegif} alt="wavegif" />
+            <p className="heading">Need our Service?</p>
+            <a href="">Talk To Us Now</a>
           </div>
         </div>
         <div className="list-of-services2">

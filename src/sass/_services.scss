@@ -47,8 +47,20 @@
           margin: 10px 0;
         }
       }
-      & .uiux-none, .bug-none{
+      & .uiux-none,
+      .bug-none {
         display: none;
+        & a {
+          display: inline-block;
+          text-decoration: none;
+          color: inherit;
+          padding: 12px 40px;
+          background: $button_background url("../img/button-noise.png");
+          border-radius: 25px;
+          &:hover {
+            background: $button_background;
+          }
+        }
       }
     }
     & .list-of-services2 {
