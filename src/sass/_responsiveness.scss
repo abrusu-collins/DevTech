@@ -200,6 +200,13 @@
     }
   }
 }
+@media screen and (max-width: 501px) {
+  .process {
+    & .processes {
+      width: 90%;
+    }
+  }
+}
 //works
 @media screen and (max-width: 1341px) {
   .works {

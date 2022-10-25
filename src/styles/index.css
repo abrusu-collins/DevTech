@@ -473,6 +473,11 @@ body {
     background-color: #292929;
   }
 }
+@media screen and (max-width: 501px) {
+  .process .processes {
+    width: 90%;
+  }
+}
 @media screen and (max-width: 1341px) {
   .works .flex2_gifs {
     flex-direction: column;
