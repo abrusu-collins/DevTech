@@ -28,6 +28,9 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.navbar .nav-2 {
+  display: none;
+}
 .navbar img {
   width: 10%;
 }
@@ -299,6 +302,14 @@ body {
   width: 10%;
 }
 
+@media screen and (max-width: 801px) {
+  .navbar .nav-1 {
+    display: none;
+  }
+  .navbar .nav-2 {
+    display: block;
+  }
+}
 @media screen and (max-width: 1301px) {
   .main-hero .hero {
     width: 80%;
