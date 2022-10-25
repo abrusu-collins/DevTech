@@ -42,6 +42,15 @@
 }
 
 }
+//ready
+@media screen and (max-width: 1201px) {
+    .ready{
+        & div {
+            width: 90%;
+        }
+    }
+    
+    }
 //works
 @media screen and (max-width: 1341px) {
   .works {
