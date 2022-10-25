@@ -8,9 +8,9 @@ function Works() {
       <p className="works_title">FEATURED WORK</p>
       <div className="flex2_gifs">
         <div className="blacko">
-          <div className="gif">
+          
             <img src={blackogif} alt="blackogif" />
-          </div>
+       
           <div className="about">
             <p>Website for Blacko(Musician)</p>
             <a href="">Visit Website</a>

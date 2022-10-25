@@ -454,6 +454,11 @@ body {
     margin-bottom: 100px;
   }
 }
+@media screen and (max-width: 601px) {
+  .works img {
+    width: 70%;
+  }
+}
 @media screen and (max-width: 1201px) {
   .ready div {
     width: 90%;
