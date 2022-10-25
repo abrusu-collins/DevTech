@@ -25,25 +25,33 @@ function Navbar() {
       <div className="nav-2">
         <div className="hamburger">
           <img src={companyimg} alt="companyimg" />
-          <FontAwesomeIcon icon={faBars} />
+          <div
+            onClick={(e) => {
+              e.currentTarget.parentElement.nextSibling.classList.toggle(
+                "hide"
+              );
+            }}
+          >
+            <FontAwesomeIcon icon={faBars} />
+          </div>
         </div>
         <ul className="hide">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#tvinw">Services</a>
-        </li>
-        <li>
-          <a href="#fans">Why Choose Us</a>
-        </li>
-        <li>
-          <a href="#pics">Featured work</a>
-        </li>
-        <li>
-          <a href="#pics">Our process</a>
-        </li>
-      </ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#tvinw">Services</a>
+          </li>
+          <li>
+            <a href="#fans">Why Choose Us</a>
+          </li>
+          <li>
+            <a href="#pics">Featured work</a>
+          </li>
+          <li>
+            <a href="#pics">Our process</a>
+          </li>
+        </ul>
       </div>
     </div>
   );
