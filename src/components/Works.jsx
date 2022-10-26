@@ -4,8 +4,8 @@ import edemgif from "../img/edem.gif";
 
 function Works() {
   return (
-    <div className="works">
-      <p className="works_title">FEATURED WORK</p>
+    <div className="works" id="portfolio">
+      <p className="works_title">FEATURED WORKS</p>
       <div className="flex2_gifs">
         <div className="blacko">
           

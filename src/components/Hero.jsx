@@ -2,7 +2,7 @@ import heroimg from "../img/hero-img.png";
 
 function Hero() {
   return (
-    <div className="main-hero">
+    <div className="main-hero" id="home">
       <div className="hero">
         <div className="hero-left">
           <p className="tag-line">We create world class digital products.</p>

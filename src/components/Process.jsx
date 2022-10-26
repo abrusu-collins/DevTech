@@ -1,6 +1,6 @@
 function Process() {
   return (
-    <div className="process">
+    <div className="process" id="process">
       <p className="title">OUR PROCESS</p>
       <div className="processes">
         <div>

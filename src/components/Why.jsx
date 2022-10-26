@@ -10,7 +10,7 @@ import {
 
 function Why() {
   return (
-    <div className="why">
+    <div className="why" id="whychooseus">
       <p className="title">WHY CHOOOSE US</p>
       <div className="reasons">
         <div className="fast">

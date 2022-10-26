@@ -7,7 +7,7 @@ import wavegif from "../img/wave.gif";
 
 function Services() {
   return (
-    <div className="services">
+    <div className="services" id="services">
       <p className="title">WHAT WE DO</p>
       <div className="main-services">
         <div className="list-of-services">
@@ -24,7 +24,7 @@ function Services() {
             <img src={desktop} alt="desktop-img" />
             <p className="heading">Desktop App Development</p>
             <p>
-              We create custom desktop applications that are designed to meet
+              We develop custom desktop applications that are designed to meet
               business challenges, promote growth, and achieve your business
               goals.
             </p>
@@ -59,7 +59,7 @@ function Services() {
           <div className="bug-none">
             <img className="gif" src={wavegif} alt="wavegif" />
             <p className="heading">Need our Service?</p>
-            <a href="">Talk To Us Now</a>
+            <a href="mailto:snillochemingson@gmail.com">Talk To Us Now</a>
           </div>
         </div>
         <div className="list-of-services2">

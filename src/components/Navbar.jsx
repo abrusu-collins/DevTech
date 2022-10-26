@@ -3,23 +3,23 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar" >
       <img className="nav-1" src={companyimg} alt="companyimg" />
       <ul className="nav-1">
         <li>
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#tvinw">Services</a>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#fans">Why Choose Us</a>
+          <a href="#whychooseus">Why Choose Us</a>
         </li>
         <li>
-          <a href="#pics">Featured work</a>
+          <a href="#portfolio">Featured work</a>
         </li>
         <li>
-          <a href="#pics">Our process</a>
+          <a href="#process">Our process</a>
         </li>
       </ul>
       <div className="nav-2">
@@ -41,16 +41,16 @@ function Navbar() {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#tvinw">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a href="#fans">Why Choose Us</a>
+            <a href="#whychooseus">Why Choose Us</a>
           </li>
           <li>
-            <a href="#pics">Featured work</a>
+            <a href="#portfolio">Featured work</a>
           </li>
           <li>
-            <a href="#pics">Our process</a>
+            <a href="#process">Our process</a>
           </li>
         </ul>
       </div>
