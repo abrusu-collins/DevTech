@@ -96,12 +96,15 @@
     }
   }
 }
+@media screen and (max-width: 501px) {
+  .main-hero {
+    height: 100vh;
+    // padding-top: 10px;
+  }
+}
 @media screen and (max-width: 401px) {
   .main-hero {
-    height: 90vh;
-    padding-top: 10px;
-
-    
+    padding-top: 50px;
   }
 }
 //services
