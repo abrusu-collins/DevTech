@@ -13,7 +13,7 @@ function Works() {
        
           <div className="about">
             <p>Website for Blacko(Musician)</p>
-            <a href="">Visit Website</a>
+            <a href="https://blacko.vercel.app/">Visit Website</a>
           </div>
         </div>
         <div className="edem">
