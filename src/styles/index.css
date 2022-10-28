@@ -124,8 +124,9 @@ body {
   margin-bottom: 1rem;
 }
 .services .main-services .list-of-services div {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 8, 0.08);
   padding: 30px;
 }
 .services .main-services .list-of-services div .heading {
@@ -135,12 +136,13 @@ body {
 .services .main-services .list-of-services .uiux-none,
 .services .main-services .list-of-services .bug-none {
   display: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 8, 0.08);
 }
 .services .main-services .list-of-services .uiux-none a,
 .services .main-services .list-of-services .bug-none a {
   display: inline-block;
   text-decoration: none;
-  color: inherit;
+  color: white;
   padding: 12px 40px;
   background: #0da34e url("../img/button-noise.png");
   border-radius: 25px;
@@ -155,8 +157,9 @@ body {
   grid-gap: 1rem;
 }
 .services .main-services .list-of-services2 div {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 8, 0.08);
   margin-bottom: 10px;
   padding: 30px;
 }
